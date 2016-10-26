@@ -5,4 +5,5 @@ package com.example.appit.myapp;
  */
 
 public class SampleActivity {
+    int i=0;
 }
