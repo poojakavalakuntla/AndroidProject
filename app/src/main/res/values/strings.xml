@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="main_toolbar_heading">Android Topics</string>
+    <string name="button_toolbar_title">Button</string>
+    <string name="button_toolbar_date">25-10-2016</string>
+    <string name="image_view_title">Image View</string>
+    <string name="image_view_date">26-10-2016</string>
+</resources>
