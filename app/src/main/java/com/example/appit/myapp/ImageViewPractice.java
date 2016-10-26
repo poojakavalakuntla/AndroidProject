@@ -1,7 +1,6 @@
 package com.example.appit.myapp;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -14,7 +13,6 @@ import android.widget.ImageView;
 public class ImageViewPractice extends AppCompatActivity {
 
     GridView gridView;
-    ImageView iv;
     int[] image_id={R.drawable.image1,R.drawable.image2,R.drawable.image3,
                     R.drawable.image4,R.drawable.image5,R.drawable.image6,
                         R.drawable.image7,R.drawable.image8};
