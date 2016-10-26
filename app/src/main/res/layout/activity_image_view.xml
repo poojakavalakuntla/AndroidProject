@@ -9,6 +9,7 @@
 
     <include layout="@layout/main_toolbar"
         android:id="@+id/image_view_toolbar">
+
     </include>
 
     <GridView

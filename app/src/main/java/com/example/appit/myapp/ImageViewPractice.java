@@ -40,12 +40,9 @@ public class ImageViewPractice extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                switch (image_id[position]){
-                    case 0:
-                        Intent img1=new Intent(ImageViewPractice.this,DisplayGridImage.class);
-
-                        img1.putExtra("Image",image.);
-                }
+               Intent intent=new Intent(ImageViewPractice.this,DisplayGridImage.class);
+                intent.putExtra("ImageId",position);
+                startActivity(intent);
             }
         });
 
